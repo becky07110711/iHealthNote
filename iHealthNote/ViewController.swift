@@ -38,8 +38,10 @@ class ViewController: UIViewController {
     //如果到超市，請買三顆橘子，如果看到西瓜，請買一顆
     var 購買橘子的數量：Int = 0
     var 購買西瓜的數量 ＝ 0
+    
     let 我去超級市場：Bool = true
     let 我看到西瓜：Bool = true
+    
     if 我去超級市場{
        購買橘子的數量＝3
        購買西瓜的數量＝1
@@ -49,3 +51,7 @@ class ViewController: UIViewController {
 }
 
 
+override func viewWillAppear(_ animated: Bool) {
+
+}
+}
